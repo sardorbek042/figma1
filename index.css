@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* header start */
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 140px;
+}
+header h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.88px;
+    text-align: left;
+    color: #4579CB;
+}
+header .header_links{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+header .header_links a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #666666;
+    transition: 0.3s;
+}
+header .header_links a:hover{
+    color: dodgerblue;
+    box-shadow: 5px 5px 10px 5px lightblue;
+}
+header .header_links button{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4579CB;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    transition: 0.3s;
+}
+header .header_links button:hover{
+    background-color: crimson;
+    box-shadow: 5px 5px 10px 5px lightgray;
+}
+/* header end */
+/* banner start */
+.banner{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    padding-top: 100px;
+}
+.banner h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #474747;
+    padding-bottom: 38px;
+}
+
+.banner h1 span{
+    color: #4579CB;
+}
+.banner p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    padding-bottom: 38px;
+}
+.banner button{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4579CB;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    transition: 0.3s;
+}
+.banner button:hover{
+    background-color: crimson;
+    box-shadow: 5px 5px 10px 5px lightgray;
+}
+.banner .banner_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 21px;
+    gap: 10px;
+}
+.banner .banner_icon i{
+    color: #EB5757;
+}
+.banner .banner_icon a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #666666;
+}
+/* banner end */
+/* box start */
+.box{
+    width: 100%;
+    height:400px;
+    text-align: center;
+    padding-top: 100px;
+}
+.box h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #474747;
+    padding-bottom: 20px;
+}
+.box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    padding-bottom: 46px;
+}
+.box .box_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .box_btns button{
+    width: 220px;
+    height: 60px;
+    background-color: #fff;
+    border: none;
+    padding-bottom: 100px;
+}
+.box .box_btns button img{
+    width: 200px;
+    height: 50px;
+}
+.box .boxes_circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.box .boxes_circle button{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: none;
+    background-color: #E6E6E6;
+}
+.box .boxes_circle .special{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #4579CB;
+}
+/* box end */
+/* item start */
+.item{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 110px 120px 107px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+.item img{
+    width: 456.41px;
+    height: 437.3px;
+}
+.item .item_text h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #474747;
+    padding-bottom: 24px;
+}
+.item .item_text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #666666;
+    padding-bottom: 30px;
+}
+.item .item_text button{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4579CB;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    transition: 0.3s;
+}
+.item .item_text button:hover{
+    background-color: crimson;
+    box-shadow: 5px 5px 10px 5px lightgray;
+}
+/* item end */
+/* Socielity start */
+.Socielity{
+    width: 100%;
+    height: 120vh;
+    border: 1px solid red;
+}
+.Socielity h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #474747;
+}
+.Socielity p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+.Socielity_cards{
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(2, 260px);
+    gap: 30px;
+    padding: 51px 110px;
+}
+.Socielity_cards .card{
+    background-color: #F6F7FD;
+    text-align: center;
+    padding: 31px 11px;
+}
+.Socielity_cards .card img{
+    width: 60px;
+    height: 60px;   
+    padding-bottom: 13px;
+}
+.Socielity_cards .card h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #474747;
+    padding-bottom: 12px;
+}
+.Socielity_cards .card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+/* Socielity end */
+/* gerge start */
+.George{
+    width: 100%;
+    height: 420px;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 123px;
+    gap: 110px;
+}
+.George .image img{
+    width: 470px;
+    height: 420px;
+}
+.George .george_text h2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #474747;
+}
+.George .george_text h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #474747;
+    padding-bottom: 19px;
+}
+.George .george_text h1{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #474747;
+    padding-bottom: 19px;
+}
+.George .george_text .george_btns{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.George .george_text .george_btns button{
+    width: 70px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #E6E6E6;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+.George .george_text .george_btns button:hover{
+    background-color: #4579CB;
+}
+.George .image .img{
+    display: flex;
+    align-items: center;
+}
+.George .image .img img{
+    width: 66px;
+    height: 66px;
+    position: relative;
+    bottom: 150px;
+    left: 60px;
+}
+.George .image .img .chat{
+    bottom: 400px;
+    left: 300px;
+}
+
+/* george end */
+
+
+/* questions start */
+.questions{
+    width: 100%;
+    height: 514px;
+    margin-top: 120px;
+}
+.questions h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #474747;
+    padding-bottom: 24px;
+}
+.questions p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    padding-bottom: 59px;
+}
+.questions .question_video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+}
+.questions .question_video .video{
+    width: 500px;
+    height: 300px;
+    background-image: url("./Mask\ Group\ \(9\).png");
+    background-size: cover;
+}
+
+/* questions end */
