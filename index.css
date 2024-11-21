@@ -229,7 +229,6 @@ header .header_links button:hover{
 .Socielity{
     width: 100%;
     height: 120vh;
-    border: 1px solid red;
 }
 .Socielity h1{
     font-size: 26px;
@@ -384,8 +383,282 @@ header .header_links button:hover{
 .questions .question_video .video{
     width: 500px;
     height: 300px;
-    background-image: url("./Mask\ Group\ \(9\).png");
+    background-image: url("./image/Mask\ Group\ \(9\).png");
     background-size: cover;
 }
-
+.questions .question_video .video .video_text{
+    position: relative;
+    top: 160px;
+    left: 50px;
+    color: #fff;
+}
+.questions .question_video .video .video_text h2{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    padding-bottom: 9px;
+}
+.questions .question_video .video .video_text h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.92px;
+    text-align: left;
+}
 /* questions end */
+
+/* general start */
+.general{
+    width: 100%;
+    height: 555px;
+    margin-top: 120px;
+}
+.general h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #474747;
+    padding-bottom: 24px;
+}
+.general p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    padding-bottom: 52px;
+}
+
+.general .general_btns{
+    display: grid;
+    grid-template-columns: repeat(2, 570px);
+    grid-template-rows: repeat(4, 70px);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px 136px;
+}
+.general .general_btns select{
+    width: 570px;
+    height: 70px;
+    padding: 23px 27px;
+    border: 1px solid #CACACA;
+    color: #8C8C8C;
+}
+.general .general_btns select option{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #8C8C8C;
+}
+/* general end */
+
+/* platforms start */
+.Platforms{
+    width: 100%;
+    height: 476px;
+    margin-top: 120px;
+}
+.Platforms h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #474747;
+    padding-bottom: 24px;
+}
+.Platforms p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    padding-bottom: 42px;
+}
+.Platforms .platforms_cards{
+    display: grid;
+    grid-template-columns: repeat(7, 170px);
+    grid-template-rows: repeat(1, 239px);
+    gap: 10px;
+    padding: 0px 5px;
+}
+.Platforms .platforms_cards .card{
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px 5px lightgray;
+    padding: 15px 5px;
+    text-align: center;
+} 
+.Platforms .platforms_cards .card h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #4579CB;
+    margin-top: 9px;
+    padding-bottom: 9px;
+}
+.Platforms .platforms_cards .card p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #666666;
+}
+.Platforms .boxes_circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 35px;
+}
+.Platforms .boxes_circle button{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: none;
+    background-color: #E6E6E6;
+}
+.Platforms .boxes_circle .special{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #4579CB;
+}
+/* platforms end */
+
+/* news start */
+.news{
+    width: 100%;
+    height: 245px;
+    margin-top: 120px;
+}
+.news h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #474747;
+    padding-bottom: 24px;
+}
+.news p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    padding-bottom: 33px;
+}
+.news_btn{
+    padding: 0px 270px;
+}
+.news input{
+    width: 770px;
+    height: 80px;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 16px;
+    padding: 0px 34px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 28px;
+}
+.news button{
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4579CB;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    position: relative;
+    bottom: 65px;
+    left: 580px;
+    transition: 0.3s;
+}
+.news button:hover{
+    background-color: crimson;
+    box-shadow: 5px 5px 10px 5px rgb(186, 105, 121);
+}
+/* news end */
+
+/* footer start */
+.footer{
+    width: 100%;
+    height: 310px;
+    background-color: #4579CB;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 135px;
+    margin-top: 80px;
+}
+.footer .footer_socielity{
+    color: #fff;
+    line-height: 24px;
+}
+.footer .footer_socielity h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    padding-bottom: 31px;
+}
+.footer .footer_company h1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 31px;
+    margin-top: 15px;
+}
+.footer .footer_company h4 a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.footer .footer_company .social{
+    text-align: left;
+}
+.footer .footer_contact h1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #fff;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+.footer .footer_contact .contact_message{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 17px;
+    padding-bottom: 8px;
+}
+.footer .footer_contact .contact_message p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+}
+.footer .footer_contact .contact_icons{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    color: #fff;
+    margin-top: 30px;
+}
+.footer .footer_contact .contact_icons i{
+    width: 21px;
+    height: 21px;
+}
+/* footer end */
