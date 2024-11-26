@@ -659,5 +659,6 @@ header .header_links button:hover{
 .footer .footer_contact .contact_icons i{
     width: 21px;
     height: 21px;
+    font-weight: normal;
 }
 /* footer end */
